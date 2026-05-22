@@ -4,22 +4,61 @@
   margin-right: 5px;
 }
 
+#contact .items-container {
+  padding-top: 2%;
+}
+
 .contact-form {
   padding-top: 20px;
 
   button {
     float: right;
-    background-color: white;
-    color: #050f0b;
-  }
-
-  button:hover {
     background-color: #5000ca;
     color: white;
   }
 
+  button:hover {
+    background-color: #7a00ff;
+    color: white;
+  }
+
   fieldset {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.25) !important;
+  }
+
+  .MuiOutlinedInput-root {
+    background-color: rgba(255, 255, 255, 0.06);
+    color: #e0e0e0;
+
+    &:hover fieldset {
+      border-color: #7a00ff !important;
+    }
+
+    &.Mui-focused fieldset {
+      border-color: #5000ca !important;
+    }
+  }
+
+  .MuiInputLabel-root {
+    color: #aaaaaa;
+
+    &.Mui-focused {
+      color: #9b4dff;
+    }
+  }
+
+  .MuiInputBase-input {
+    color: #e0e0e0;
+
+    &::placeholder {
+      color: #888888;
+      opacity: 1;
+    }
+  }
+
+  .MuiFormHelperText-root {
+    color: #ff6b6b;
   }
 }
 

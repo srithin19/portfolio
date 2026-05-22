@@ -105,11 +105,12 @@
 
     @media (max-width:768px) {
         .about-section h1 {
-            font-size: 4em !important;
+            font-size: 2.8em !important;
             text-align: left;
         }
 
         .about-section p {
+            font-size: 1.2em !important;
             text-align: left;
         }
 
@@ -134,7 +135,8 @@
         }
 
         .about-section {
-            padding-top: 150px;
+            padding-top: 100px;
+            min-height: auto;
             display: block;
             padding-left: 0px;
             padding-right: 0px;
@@ -149,7 +151,22 @@
 
         .about-section .image-wrapper {
             padding-left: 5%;
+            padding-top: 20px;
             width: 100%;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .about-section h1 {
+            font-size: 2em !important;
+        }
+
+        .about-section p {
+            font-size: 1.1em !important;
+        }
+
+        .about-section .image-wrapper img {
+            width: 110px;
         }
     }
 }

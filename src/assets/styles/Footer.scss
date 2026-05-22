@@ -11,5 +11,15 @@ footer {
 
     p {
         font-size: 0.8em;
+        padding: 0 15px;
+        word-break: break-word;
+    }
+}
+
+@media (max-width: 480px) {
+    footer p {
+        font-size: 0.75em;
+        padding: 0 20px;
+        line-height: 1.6;
     }
 }
