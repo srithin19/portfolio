@@ -10,56 +10,75 @@ function Project() {
       <h1>Personal Projects</h1>
       <div className="projects-grid">
         <div className="project">
-          <a href="https://www.filmate.club/" target="_blank" rel="noreferrer">
-            <img src={mock10} className="zoom" alt="thumbnail" width="100%" />
-          </a>
-          <a href="https://www.filmate.club/" target="_blank" rel="noreferrer">
-            <h2>Filmate AI</h2>
-          </a>
+          <img
+            src={mock09}
+            className="zoom"
+            alt="Food Recipe Platform"
+            width="100%"
+          />
+          <h2>Food Recipe Platform</h2>
           <p>
-            Developed movie finder app with semantic search and sentiment
-            analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.
+            Developed scalable RESTful APIs using Java Spring Boot following
+            SOLID architecture principles. Improved backend efficiency through
+            optimized SQL queries and cloud-backed storage workflows, with high
+            test coverage using JUnit.
           </p>
+          <p className="project-stack">Java · Spring Boot · SQL · AWS</p>
         </div>
         <div className="project">
           <a
-            href="https://yujisatojr.itch.io/highspeedchase"
+            href="https://github.com/srithin19/smart-parking"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock09} className="zoom" alt="thumbnail" width="100%" />
+            <img
+              src={mock08}
+              className="zoom"
+              alt="Smart Parking System"
+              width="100%"
+            />
           </a>
           <a
-            href="https://yujisatojr.itch.io/highspeedchase"
+            href="https://github.com/srithin19/smart-parking"
             target="_blank"
             rel="noreferrer"
           >
-            <h2>High Speed Chase</h2>
+            <h2>Smart Parking System</h2>
           </a>
           <p>
-            Designed, developed, and launched a 3D multiplayer racing game with
-            C# and Unity. This is available on Itch.io for gamers worldwide to
-            enjoy.
+            Parking management system built with React.js frontend and Java
+            backend using MySQL. Efficiently manages parking spaces for cars and
+            bikes across multiple floors.
           </p>
+          <p className="project-stack">React.js · JavaScript · Java · MySQL</p>
         </div>
         <div className="project">
           <a
-            href="https://yujisatojr.itch.io/spacecraft"
+            href="https://ieeexplore.ieee.org/document/10687749"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock08} className="zoom" alt="thumbnail" width="100%" />
+            <img
+              src={mock10}
+              className="zoom"
+              alt="Image Hiding Strategy"
+              width="100%"
+            />
           </a>
           <a
-            href="https://yujisatojr.itch.io/spacecraft"
+            href="https://ieeexplore.ieee.org/document/10687749"
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Astro Raiders</h2>
+            <h2>An Image Hiding Strategy Based on Neural Networks</h2>
           </a>
           <p>
-            Developed and released a 2D shooting game with C# and Unity. This
-            project is hosted on the Itch.io public marketplace.
+            Combines steganography, cryptography, and deep neural networks to
+            hide an image within another image. Uses Prep, Hiding, and Reveal
+            layers trained on natural photos to conceal and recover images.
+          </p>
+          <p className="project-stack">
+            Machine Learning · Python · DES · Neural Networks
           </p>
         </div>
       </div>
