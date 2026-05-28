@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2c239524.css",
-    "main.js": "/portfolio/static/js/main.d67389d6.js",
+    "main.css": "/portfolio/static/css/main.29338462.css",
+    "main.js": "/portfolio/static/js/main.1e0b54d1.js",
     "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
     "static/media/mock10.png": "/portfolio/static/media/mock10.2d05b02ba569a430a255.png",
     "static/media/mock09.png": "/portfolio/static/media/mock09.e18677ccfc932e52d754.png",
     "static/media/mock08.png": "/portfolio/static/media/mock08.13f46873fdbd382f4b76.png",
-    "static/media/bg-light.png": "/portfolio/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/bg-dark.jpg": "/portfolio/static/media/bg-dark.860dda88765b628d4d6c.jpg",
     "static/media/profile.jpeg": "/portfolio/static/media/profile.1c98cacb4ccc0bc1bc6a.jpeg",
+    "static/media/ieee-logo.svg": "/portfolio/static/media/ieee-logo.c2b5d40eb27809c69e08388f2798694b.svg",
     "index.html": "/portfolio/index.html",
-    "main.2c239524.css.map": "/portfolio/static/css/main.2c239524.css.map",
-    "main.d67389d6.js.map": "/portfolio/static/js/main.d67389d6.js.map",
+    "static/media/springer-logo.svg": "/portfolio/static/media/springer-logo.8b9473c4a05417173feac63ccadd3458.svg",
+    "main.29338462.css.map": "/portfolio/static/css/main.29338462.css.map",
+    "main.1e0b54d1.js.map": "/portfolio/static/js/main.1e0b54d1.js.map",
     "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c239524.css",
-    "static/js/main.d67389d6.js"
+    "static/css/main.29338462.css",
+    "static/js/main.1e0b54d1.js"
   ]
 }
