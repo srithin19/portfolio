@@ -12,8 +12,12 @@ const labelsFirst = [
     "HTML5",
     "CSS3",
     "SASS",
-    "Flask",
+    "Java",
+    "SpringBoot",
     "Python",
+    "FastAPI",
+    "Node.js",
+    "Express",
     "SQL",
     "PostgreSQL",
     "Postman"
